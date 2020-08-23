@@ -1,0 +1,111 @@
+h1,h2{
+  color:  #025167;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 600;
+  font-size: 32px
+}
+h2{
+  color: #217ab7;
+  font-size: 24px;
+  font-weight: bolder;
+}
+body{
+  background-color: #f6f9fc;
+  color: #5D5D5D;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+}
+#about{
+  color:  #025167;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
+
+a{
+  text-decoration: none;
+  color:#39AECF;
+  transition: color 0.3s ease;
+ }
+
+ a:hover{
+  color: #057D9F;
+  text-decoration: none;
+ }
+
+p{
+  margin: 0 auto;
+}
+
+.wiki{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.page-content{
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white{
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px 0;
+  border-radius: 4px;
+  text-justify:center;
+  text-align: center;
+}
+
+h1, h2,h3,h4,h5,h6{
+  margin:0 auto;
+}
+
+
+#about img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+#about p{
+  margin: 20px 0;
+}
+
+.btn-blue{
+  background-color:#39AECF;
+  color: white;
+  transition: color 0.3s ease;
+  border-radius: 4px;
+  padding: 7px 15px;
+}
+
+.btn-blue:hover{
+  color: white;
+  background-color: #057D9F;
+  text-decoration: none;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+  margin:0;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 5px;
+}
+
+.list-inline li a{
+  color: rgb(230,230,230);
+  transition: color 0.3s ease;
+}
+
+.list-inline li a:hover{
+  color:#39AECF;
+}
